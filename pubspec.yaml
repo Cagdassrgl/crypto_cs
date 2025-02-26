@@ -1,6 +1,8 @@
 name: crypto_cs
 description: "Crypto Package"
 version: 1.0.0
+repository: "https://github.com/Cagdassrgl/crypto_cs"
+
 
 environment:
   sdk: ^3.7.0
