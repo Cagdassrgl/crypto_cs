@@ -23,13 +23,13 @@ import 'package:crypto_cs/crypto_cs.dart';
 
 WordArray wordArray = Utf8.parse("Hello, world");
 String base64String = Base64.stringify(wordArray);
+```
 
 ### MD5 Hashing
 
 Use the `MD5` class to compute an MD5 hash of a string.
 
 The `MD5` class allows you to compute a 128-bit hash value for any given string. This hash is typically used to check data integrity or create unique identifiers for data. 
-```
 
 #### Example Usage:
 
