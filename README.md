@@ -29,6 +29,7 @@ String base64String = Base64.stringify(wordArray);
 Use the `MD5` class to compute an MD5 hash of a string.
 
 The `MD5` class allows you to compute a 128-bit hash value for any given string. This hash is typically used to check data integrity or create unique identifiers for data. 
+```
 
 #### Example Usage:
 
@@ -37,6 +38,7 @@ import 'package:crypto_cs/crypto_cs.dart';
 
 String input = "Hello, world!";
 String hash = MD5.hash(input);
+```
 
 ### SHA-256 Hashing
 
@@ -51,3 +53,4 @@ import 'package:crypto_cs/crypto_cs.dart';
 
 String input = "Hello, world!";
 Uint8List hash = SHA256.hash(input);
+```
