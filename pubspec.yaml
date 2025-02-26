@@ -1,7 +1,6 @@
 name: crypto_cs
 description: "Crypto Package"
 version: 1.0.0
-homepage:
 
 environment:
   sdk: ^3.7.0
