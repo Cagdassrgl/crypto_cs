@@ -9,16 +9,6 @@
 - **SHA-256 Hashing**: Generate SHA-256 hashes for input strings.
 - **UTF-8/Hex Parsing**: Convert hexadecimal strings into `WordArray` for cryptographic operations.
 
-## Installation
-
-Add the following dependency to your `pubspec.yaml` file:
-
-```yaml
-dependencies:
-  crypto_cs:
-    git:
-      url: https://github.com/your-username/crypto_cs.git
-
 
 ## Usage
 
